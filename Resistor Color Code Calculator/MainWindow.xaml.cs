@@ -19,7 +19,6 @@ namespace Resistor_Color_Code_Calculator
                 {
                     if (float.TryParse(button.Content.ToString(), out _))
                         button.Click += Button_Click;
-                    
                 }
             }
         }
